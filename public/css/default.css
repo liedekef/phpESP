@@ -1,0 +1,149 @@
+/* $Id$ */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body#auth {
+    margin: 5px;
+}
+
+#loginform {
+    width: 14em;
+}
+
+#loginform label, #loginform input {
+    display: block;
+}
+
+#loginform label {
+    padding: .5em;
+    font-weight: bold;
+}
+
+#loginform form {
+    float: left;
+}
+
+.message {
+        font-size: medium;
+        font-variant: normal;
+        font-weight: bold;
+        color: #CC0000;
+        text-align: center;
+}
+
+.error {
+    color: #CC0000;
+}
+
+.qnumber {
+    float: left;
+    padding-right: 3px;
+}
+
+.qbody {
+    padding-top: 3px;
+    padding-left: 25px;
+}
+
+.qbody ul {
+    margin: 0px;
+    padding: 0px;
+    padding-left: 15px;
+}
+
+.qsectiontext {
+    padding: 5px;
+}
+
+#survey fieldset {
+    border: 0px;
+    border-bottom: 2px solid grey;
+    padding: 28px;
+}
+
+fieldset.hidden {
+    display: none;
+}
+
+.ranktable td {
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.alt {
+    background-color: #eeeeee;
+}
+
+.nom {
+    background-color: #dddddd;
+}
+
+.required {
+    color: red;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.notice {
+    text-align: center;
+}
+
+form fieldset { border: 0; }
+div.form label, form label {
+  display: block;
+  float: left;
+  width: 8em;
+  margin-right: .25em;
+  text-align: right;
+  font-size: smaller;
+  color: #666;
+}
+div.form div, form div {
+  clear: both;
+}
+#dashboard h1 { margin: 0; }
+#dashboard p { margin: 0 0 1em 0; }
+.dashboardPanel { margin-top: 1em; border: solid 1px #999; width: 50em; }
+.dashboardPanel table caption,
+.dashboardPanel h1 {
+  padding: .25em .5em;
+  margin: 0;
+  text-align: left;
+  font-size: larger;
+  font-weight: bold;
+  background: #ddd;
+  color: #09f;
+  border-bottom: solid 3px #000;
+}
+.dashboardPanel table { padding: 1em; empty-cells: show; border-spacing: 0px; }
+.dashboardPanel table th, .dashboardPanel table td { border: solid 1px #eee; padding: 0 .2em; }
+.dashboardPanel table thead th { background: #eee; text-align: center; border-bottom: solid 1px #999; }
+.dashboardPanel p { margin: 0; padding: 0 .25em; }
+
+#my_login div { padding: .25em; }
+#my_login a { display: block; text-align: right; margin: 0 .25em; }
+
+#my_surveys { }
+#my_surveys table { width: 100%; }
+#my_surveys table thead { }
+#my_surveys table thead th { }
+#my_surveys table tbody tr:nth-child(odd) { background: #09f; }
+
+#my_history { }
+#my_history table { width: 100%; }
+#my_history table thead { }
+#my_history table thead th { }
+#my_history table tbody tr:nth-child(odd) { background: #09f; }
+
+#my_tools { }
+#my_tools li { }
+
+table.help { width: 100%; }
+table.help td.menu { vertical-align: top; width: 125px; border-right: dashed 1px #000; }
+table.help div { padding-left: 2em; }
+table.help a { text-decoration: none; padding: 0; }
+table.help td.menu li a { font-size: 80%; }
+table.help h1 { border-bottom: dashed 1px #000; }
+table.help h2, table.help h3, table.help h4 { margin: 0; }
